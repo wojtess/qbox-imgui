@@ -87,7 +87,6 @@ MainWindow::~MainWindow() {
     ImGui_ImplGlfw_Shutdown();
     ImGui::DestroyContext();
 
-    Window::~Window();
     created = false;
 }
 
@@ -293,7 +292,7 @@ void RendererWindow::initGL(std::string name, GLFWmonitor* monitor) {
 }
 
 RendererWindow::~RendererWindow() {
-    Window::~Window();
+    
 }
 
 void RendererWindow::pollEvents() {
