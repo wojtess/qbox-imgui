@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/Qbox.dir/libs/ImGuiFileDialog/ImGuiFileDialog.cpp.o"
+  "CMakeFiles/Qbox.dir/libs/ImGuiFileDialog/ImGuiFileDialog.cpp.o.d"
+  "CMakeFiles/Qbox.dir/libs/glad/gl.c.o"
+  "CMakeFiles/Qbox.dir/libs/glad/gl.c.o.d"
+  "CMakeFiles/Qbox.dir/libs/imgui/backends/imgui_impl_glfw.cpp.o"
+  "CMakeFiles/Qbox.dir/libs/imgui/backends/imgui_impl_glfw.cpp.o.d"
+  "CMakeFiles/Qbox.dir/libs/imgui/backends/imgui_impl_opengl3.cpp.o"
+  "CMakeFiles/Qbox.dir/libs/imgui/backends/imgui_impl_opengl3.cpp.o.d"
+  "CMakeFiles/Qbox.dir/libs/imgui/imgui.cpp.o"
+  "CMakeFiles/Qbox.dir/libs/imgui/imgui.cpp.o.d"
+  "CMakeFiles/Qbox.dir/libs/imgui/imgui_demo.cpp.o"
+  "CMakeFiles/Qbox.dir/libs/imgui/imgui_demo.cpp.o.d"
+  "CMakeFiles/Qbox.dir/libs/imgui/imgui_draw.cpp.o"
+  "CMakeFiles/Qbox.dir/libs/imgui/imgui_draw.cpp.o.d"
+  "CMakeFiles/Qbox.dir/libs/imgui/imgui_tables.cpp.o"
+  "CMakeFiles/Qbox.dir/libs/imgui/imgui_tables.cpp.o.d"
+  "CMakeFiles/Qbox.dir/libs/imgui/imgui_widgets.cpp.o"
+  "CMakeFiles/Qbox.dir/libs/imgui/imgui_widgets.cpp.o.d"
+  "CMakeFiles/Qbox.dir/src/controller.cpp.o"
+  "CMakeFiles/Qbox.dir/src/controller.cpp.o.d"
+  "CMakeFiles/Qbox.dir/src/gl.cpp.o"
+  "CMakeFiles/Qbox.dir/src/gl.cpp.o.d"
+  "CMakeFiles/Qbox.dir/src/main.cpp.o"
+  "CMakeFiles/Qbox.dir/src/main.cpp.o.d"
+  "CMakeFiles/Qbox.dir/src/renderer.cpp.o"
+  "CMakeFiles/Qbox.dir/src/renderer.cpp.o.d"
+  "CMakeFiles/Qbox.dir/src/slide.cpp.o"
+  "CMakeFiles/Qbox.dir/src/slide.cpp.o.d"
+  "CMakeFiles/Qbox.dir/src/utils.cpp.o"
+  "CMakeFiles/Qbox.dir/src/utils.cpp.o.d"
+  "CMakeFiles/Qbox.dir/src/window.cpp.o"
+  "CMakeFiles/Qbox.dir/src/window.cpp.o.d"
+  "Qbox"
+  "Qbox.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C CXX)
+  include(CMakeFiles/Qbox.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
