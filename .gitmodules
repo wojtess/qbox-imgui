@@ -1,0 +1,9 @@
+[submodule "libs/imgui"]
+	path = libs/imgui
+	url = https://github.com/ocornut/imgui
+[submodule "libs/glm"]
+	path = libs/glm
+	url = https://github.com/g-truc/glm
+[submodule "libs/ImGuiFileDialog"]
+	path = libs/ImGuiFileDialog
+	url = https://github.com/aiekick/ImGuiFileDialog
