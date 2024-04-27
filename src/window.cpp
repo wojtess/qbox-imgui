@@ -313,10 +313,10 @@ void RendererWindow::pollEvents() {
 }
 
 void RendererWindow::renderGL() {
-    int err = glGetError();
-    if(err != 0) {
-        std::cout << "pre errrorGL: " << std::hex << err << std::endl;
-    }
+    // int err = glGetError();
+    // if(err != 0) {
+    //     std::cout << "pre errrorGL: " << std::hex << err << std::endl;
+    // }
      
     renderer.preRender();
 
@@ -326,10 +326,10 @@ void RendererWindow::renderGL() {
 
     renderer.postRenderer();
 
-    err = glGetError();
-    if(err != 0) {
-        std::cout << "post errrorGL: " << std::hex << err << std::endl;
-    }
+    // err = glGetError();
+    // if(err != 0) {
+    //     std::cout << "post errrorGL: " << std::hex << err << std::endl;
+    // }
 }
 
 void RendererWindow::postInit() {
